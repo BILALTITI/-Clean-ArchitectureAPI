@@ -1,4 +1,4 @@
-﻿using School_Project.Core.Mapping.queries.Response;
+﻿using School_Project.Core.Features.student.queries.Results;
 using School_Project.Data.Entity;
 using System;
 using System.Collections.Generic;

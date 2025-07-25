@@ -135,7 +135,6 @@ C:\Users\bilal\source\repos\School Project\School Project\obj\Debug\net8.0\Schoo
 C:\Users\bilal\source\repos\School Project\School Project\obj\Debug\net8.0\School Project.AssemblyInfoInputs.cache
 C:\Users\bilal\source\repos\School Project\School Project\obj\Debug\net8.0\School Project.AssemblyInfo.cs
 C:\Users\bilal\source\repos\School Project\School Project\obj\Debug\net8.0\School Project.csproj.CoreCompileInputs.cache
-C:\Users\bilal\source\repos\School Project\School Project\obj\Debug\net8.0\School Project.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\bilal\source\repos\School Project\School Project\obj\Debug\net8.0\School Project.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\bilal\source\repos\School Project\School Project\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\bilal\source\repos\School Project\School Project\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
@@ -156,3 +155,6 @@ C:\Users\bilal\source\repos\School Project\School Project\bin\Debug\net8.0\Media
 C:\Users\bilal\source\repos\School Project\School Project\bin\Debug\net8.0\MediatR.Contracts.dll
 C:\Users\bilal\source\repos\School Project\School Project\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\bilal\source\repos\School Project\School Project\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\bilal\source\repos\School Project\School Project\obj\Debug\net8.0\School Project.sourcelink.json
+C:\Users\bilal\source\repos\School Project\School Project\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\bilal\source\repos\School Project\School Project\obj\Debug\net8.0\School Project.MvcApplicationPartsAssemblyInfo.cs

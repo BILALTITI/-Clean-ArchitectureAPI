@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace School_Project.Core.Bases
+﻿namespace School_Project.Core.Bases
 {
     public class ResponseHandler
     {
@@ -22,6 +16,17 @@ namespace School_Project.Core.Bases
                 Message = "Deleted Successfully"
             };
         }
+        public Response<T> SuccessAdd<T>(T entity, object Meta = null)
+        {
+            return new Response<T>()
+            {
+                Data = entity,
+                StatusCode = System.Net.HttpStatusCode.OK,
+                Succeeded = true,
+                Message = "Added Successfully",
+                Meta = Meta
+            };
+        }
         public Response<T> Success<T>(T entity, object Meta = null)
         {
             return new Response<T>()
@@ -30,6 +35,17 @@ namespace School_Project.Core.Bases
                 StatusCode = System.Net.HttpStatusCode.OK,
                 Succeeded = true,
                 Message = "Added Successfully",
+                Meta = Meta
+            };
+        }
+        public Response<T> SuccessEdit<T>(T entity, object Meta = null)
+        {
+            return new Response<T>()
+            {
+                Data = entity,
+                StatusCode = System.Net.HttpStatusCode.OK,
+                Succeeded = true,
+                Message = "Updated Successfully",
                 Meta = Meta
             };
         }
@@ -51,6 +67,16 @@ namespace School_Project.Core.Bases
                 Message = Message == null ? "Bad Request" : Message
             };
         }
+        public Response<T> UnprocessableEntity<T>(string? message = null)
+        {
+            return new Response<T>()
+            {
+                StatusCode = System.Net.HttpStatusCode.BadRequest,
+                Succeeded = false,
+                Message = message ?? "Unprocessable Request"
+            };
+        }
+
 
         public Response<T> NotFound<T>(string message = null)
         {
@@ -69,10 +95,10 @@ namespace School_Project.Core.Bases
                 Data = entity,
                 StatusCode = System.Net.HttpStatusCode.Created,
                 Succeeded = true,
-                Message ="Created",
+                Message = "Created",
                 Meta = Meta
             };
         }
     }
-    
+
 }

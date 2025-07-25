@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tbXo7v+pBtk=",
+  "dgSpecHash": "IS+k65ks83Y=",
   "success": true,
   "projectFilePath": "C:\\Users\\bilal\\source\\repos\\School Project\\School Project.Data\\School Project.Data.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\bilal\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

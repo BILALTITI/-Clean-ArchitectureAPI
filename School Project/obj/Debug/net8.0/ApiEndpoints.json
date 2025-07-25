@@ -1,18 +1,56 @@
 [
   {
-    "ContainingType": "School_Project.Controllers.StudentsController",
-    "Method": "GetAllStudents",
-    "RelativePath": "api/Students",
+    "ContainingType": "School_Project.Controllers.StudentController",
+    "Method": "GetStudenByID",
+    "RelativePath": "api/Student/Api/V1/Student/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "School_Project.Controllers.StudentController",
+    "Method": "Create",
+    "RelativePath": "api/Student/Api/V1/Student/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "School_Project.Core.Features.student.Commands.Models.AddStudentCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "School_Project.Controllers.StudentController",
+    "Method": "Edit",
+    "RelativePath": "api/Student/Api/V1/Student/Edit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "School_Project.Core.Features.Students.Commands.Models.EditStudentCommand",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
     "ContainingType": "School_Project.Controllers.StudentController",
     "Method": "GetStudentList",
-    "RelativePath": "Student/List",
+    "RelativePath": "api/Student/Api/V1/Student/List",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

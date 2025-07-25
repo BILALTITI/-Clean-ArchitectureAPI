@@ -15,3 +15,4 @@ C:\Users\bilal\source\repos\School Project\School Project.Service\bin\Debug\net8
 C:\Users\bilal\source\repos\School Project\School Project.Service\bin\Debug\net8.0\School Project.Infrastructure.pdb
 C:\Users\bilal\source\repos\School Project\School Project.Service\obj\Debug\net8.0\School Project.Service.csproj.AssemblyReference.cache
 C:\Users\bilal\source\repos\School Project\School Project.Service\obj\Debug\net8.0\School P.C6D8D549.Up2Date
+C:\Users\bilal\source\repos\School Project\School Project.Service\obj\Debug\net8.0\School Project.Service.sourcelink.json

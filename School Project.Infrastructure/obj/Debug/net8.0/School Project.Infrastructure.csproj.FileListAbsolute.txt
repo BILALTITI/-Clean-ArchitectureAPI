@@ -15,3 +15,4 @@ C:\Users\bilal\source\repos\School Project\School Project.Infrastructure\obj\Deb
 C:\Users\bilal\source\repos\School Project\School Project.Infrastructure\obj\Debug\net8.0\School Project.Infrastructure.pdb
 C:\Users\bilal\source\repos\School Project\School Project.Infrastructure\obj\Debug\net8.0\School Project.Infrastructure.genruntimeconfig.cache
 C:\Users\bilal\source\repos\School Project\School Project.Infrastructure\obj\Debug\net8.0\ref\School Project.Infrastructure.dll
+C:\Users\bilal\source\repos\School Project\School Project.Infrastructure\obj\Debug\net8.0\School Project.Infrastructure.sourcelink.json

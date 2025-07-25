@@ -17,3 +17,4 @@ C:\Users\bilal\source\repos\School Project\School Project.Core\bin\Debug\net8.0\
 C:\Users\bilal\source\repos\School Project\School Project.Core\bin\Debug\net8.0\School Project.Service.pdb
 C:\Users\bilal\source\repos\School Project\School Project.Core\obj\Debug\net8.0\School Project.Core.csproj.AssemblyReference.cache
 C:\Users\bilal\source\repos\School Project\School Project.Core\obj\Debug\net8.0\School P.83A59F64.Up2Date
+C:\Users\bilal\source\repos\School Project\School Project.Core\obj\Debug\net8.0\School Project.Core.sourcelink.json

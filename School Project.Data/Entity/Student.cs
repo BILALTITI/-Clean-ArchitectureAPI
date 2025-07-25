@@ -22,7 +22,7 @@ namespace School_Project.Data.Entity
         public int? DID { get; set; }
 
         [ForeignKey("DID")]
-        public virtual Department Department { get; set; }
+        public virtual Department ?Department { get; set; }
     }
 
 
